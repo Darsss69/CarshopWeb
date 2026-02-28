@@ -1,3 +1,4 @@
+/* Global Selectors */
 *{
     padding: 0%;
     margin: 0%;
@@ -5,8 +6,16 @@
 }
 
 body{
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-image: linear-gradient( rgb(46, 39, 48),rgba(0, 0, 0, 0.609));
     background-color: rgb(46, 39, 48);
 }
+
+/* End of Global Selectors */
+
+/* Nav Bar style */
 
 #NavBar{
     background-color: rgb(28, 22, 29);
@@ -23,7 +32,7 @@ body{
     font-family: 'Courier New', Courier, monospace;
     font-size: 14px;
     text-align: center;
-    color: rgb(254, 248, 254);
+    color: rgb(189, 252, 230);
     border: 0px;
     background-color: rgb(28, 22, 29);
     height: 60px;
@@ -35,6 +44,8 @@ body{
     background-color: rgb(48, 32, 48);
 
 }
+
+/* End of Nav Bar style */
 
 /* Header style */
 
@@ -129,7 +140,7 @@ body{
 
 #Recommendations h1{
     text-align: center;
-    color: aliceblue;
+    color: rgb(174, 245, 235);
     flex-basis: 100%;
     margin: 0px 70px 30px 70px;
 }
@@ -141,7 +152,7 @@ body{
     display: flex;
     border-radius: 15px;
     background-color: rgb(77, 70, 84);
-    padding: 20px 30px 50px 20px;
+    padding: 20px 30px 30px 10px;
     margin: 10px;
     transition: all 0.2s ease-in-out;
 }
@@ -157,15 +168,18 @@ body{
     height: 120px;
 }
 
+/* Recommendations Info style */
+
 #recinfo{
     color: aliceblue;
     margin: 10px 0px 0px 0px;
-    width: 310px;
+    width: 300px;
     text-align: left;
-    padding-left: 20px;
+    padding: 0px 0px 0px 20px;
 }
 
-#recinfo h1{
+#recinfo h2{
+    color: rgb(164, 240, 228);
     margin: 0px 0px 10px 0px;
 
 }
@@ -175,3 +189,6 @@ body{
 
 }
 
+/* End of Recommendations Info style */
+
+/* End of Recommendations style */
