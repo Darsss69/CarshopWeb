@@ -24,6 +24,12 @@ body{
     justify-content: center;
     align-items: center;
     align-content: center;
+    animation: login 0.4s ease-in-out;
+}
+
+@keyframes login{
+    0%{transform: translateY(13px); opacity: 0;}
+    100%{transform: translateY(0px); opacity: 1;}
 }
 
 #LoginBox{
@@ -55,7 +61,7 @@ body{
 #LoginDetails p{
     color: rgb(208, 254, 181);
     text-align: right;
-    font-size: 13px;
+    font-size: 11px;
     margin: 6px 0px 0px 0px;
 }
 
@@ -126,6 +132,12 @@ body{
     justify-content: center;
     align-items: center;
     align-content: center;
+    animation: signin 0.4s ease-in-out;
+}
+
+@keyframes signin{
+    0%{transform: translateY(15px); opacity: 0;}
+    100%{transform: translateY(0px); opacity: 1;}
 }
 
 #Sign-inBox{
@@ -135,7 +147,6 @@ body{
     color: rgb(255, 255, 255);
     border-radius: 10px;
     width: 350px;
-    height: 1450px;
     background-color: rgb(70, 64, 79);
     padding: 40px;
     margin: 70px;
@@ -144,7 +155,6 @@ body{
 #Sign-inBox h1{
     color: rgb(204, 253, 223);
 }
-
 
 #Sign-inDetails{
     font-size: 13px;
@@ -244,9 +254,15 @@ body{
 }
 
 #RadioThingy{
-    margin: 50px 0px 0px 0px;
+    margin: 40px 10px 0px -15px;
     width: 100px;
     text-align: center;
+    color: rgb(229, 255, 233);
+}
+
+#RadioThingy h1{ 
+    text-align: center;
+    font-size: 15px;
     color: rgb(229, 255, 233);
 }
 
@@ -272,22 +288,50 @@ body{
 }
 
 #Location p{
-    border-radius: 20px;
+
+    border-radius: 10px 10px 0px 0px;
     padding: 6px;
-    background-color: rgb(40, 35, 45);
+    background-color: rgb(47, 39, 55);
     flex-basis: 100%;
     font-size: 9px;
-    margin: 0px 0px 5px 0px;
+    margin: 0px 0px 0px 0px;
 }
 
 #Location iframe{
     background-color: rgb(255, 255, 255);
     height: 180px;
     width: 200px;
-    border-radius: 10px;
+    border-radius: 0px 0px 10px 10px;
 }
 
+#DescriptionofMechanic{
+    margin: 30px 0px 0px 0px;
+}
 
+#DescriptionofMechanic h1{
+    font-size: 15px;
+    margin: 10px 0px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+#DescriptionofMechanic textarea{
+    padding: 10px;
+    color: rgb(209, 250, 226);
+    height: 100px;
+    width: 200px;
+    border-radius: 10px;
+    background-color: rgb(57, 49, 60);
+}
+
+#TermsConditions{
+    margin: 20px 0px 0px 0px;
+    font-size: 13px;
+    color: rgb(209, 250, 226);
+}
+
+#TermsConditions input{
+    margin: 0px 7px 0px 0px;
+}
 /* End Security of Sign-in Page Design */
 
 /* End of Sign-in Page Design */

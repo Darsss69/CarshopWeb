@@ -9,25 +9,26 @@
 <body>
     
     <div id="Login">
-        <div id="LoginBox">
-            <h1>Log-in</h1>
+            <div id="LoginBox">
+                <form action="LandingPage.html">
+                <h1>Log-in</h1>
 
-            <div id="LoginDetails">
-            <label>Username</label>
-            <input placeholder="Username">
+                <div id="LoginDetails">
+                <label>Username</label>
+                <input type="text" placeholder="Username" required>
+                </div>
+
+                <div id="LoginDetails">
+                <label>Password</label>
+                <input type="password" placeholder="Password" required> 
+                <p>Forgot Password?</p>
+                </div>
+
+                <button type="submit">Log-In</button>
+                </form>
+                
+                <h2>Dont Have an Account? <a href="Signin.html">Create One</a></h2>
             </div>
-
-            <div id="LoginDetails">
-            <label>Password</label>
-            <input placeholder="Password"> 
-            <p>Forgot Password?</p>
-            </div>
-
-            <a href="LandingPage.html">
-            <button>Log-In</button>
-            </a> 
-            <h2>Dont Have an Account? <a href="Signin.html">Create One</a></h2>
-        </div>
     </div>
     
 </body>
