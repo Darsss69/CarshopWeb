@@ -31,14 +31,15 @@ body{
 }
 
 #mainnavbar .button{
+    flex-wrap: nowrap;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 12px;
     text-align: center;
-    color: rgb(227, 180, 245);
+    color: rgb(255, 255, 255);
     border: 0px;
     background-color: rgb(28, 22, 29);
     height: 60px;
-    padding: 0px 20px 0px 20px;
+    padding: 0px 10px 0px 10px;
     transition: all 0.2s ease-in-out;
 }
 
@@ -155,7 +156,7 @@ body{
 #socials h1{
     text-shadow: 3px 3px rgb(29, 16, 16, 0.7);
     font-size: 16px;
-    color: aliceblue;
+    color: rgb(255, 255, 255);
     font-size: 25px;
     flex-basis: 100%;         
     text-align: center;
@@ -178,7 +179,7 @@ body{
 #Recommendations h1{
     font-size: 30px;
     text-align: center;
-    color: rgb(247, 217, 250);
+    color: rgb(255, 255, 255);
     flex-basis: 100%;
     margin: 0px 70px 30px 70px;
 }
@@ -218,7 +219,7 @@ body{
 }
 
 #recinfo h2{
-    color: rgb(218, 168, 233);
+    color: rgb(255, 255, 255);
     margin: 0px 0px 10px 0px;
 
 }
@@ -246,16 +247,15 @@ body{
 }
 
 #MechanicsRecommendation h1{
-    color: rgb(240, 198, 240);
+    color: rgb(255, 255, 255);
     font-size: 30px;
     margin: 30px 0px;
     flex-basis: 100%;
 }
 
 .Profiles{
-    justify-content: center;
-    text-align: left;
     flex-wrap: wrap;
+    justify-content: center;
     display: flex;
     border-radius: 40px;
     padding: 25px;
@@ -276,6 +276,7 @@ body{
 }
 
 #ProfileInfo{
+    text-align: left;
     margin: 0px 0px 0px 20px;
     width: 30vh;
 }
@@ -283,7 +284,7 @@ body{
 #ProfileInfo h1{
     font-size: 25px;
     margin: 0px 0px 10px 0px;
-    color: rgb(240, 198, 240);
+    color: rgb(255, 255, 255);
 }
 
 #ProfileInfo p{
