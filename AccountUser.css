@@ -1,0 +1,17 @@
+/* Global Selectors */
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;  
+}
+
+body{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    background-image: linear-gradient( rgb(46, 39, 48),rgba(0, 0, 0, 0.459));
+    background-color: rgb(46, 39, 48);
+    background-attachment:fixed ;
+}
+
+/* End of Global Selectors */

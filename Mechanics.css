@@ -6,11 +6,10 @@
 }
 
 body{
-    text-align: center;
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
-    background-image: linear-gradient( rgba(101, 80, 107, 0.573),rgba(17, 1, 23, 0.79));
+    background-image: linear-gradient( rgb(4, 5, 24),rgba(6, 11, 37, 0.609));
     background-color: rgb(46, 39, 48);
 }
 
@@ -20,7 +19,7 @@ body{
 
 #NavBar{
     text-decoration: none;
-    background-color: rgb(28, 22, 29);
+    background-color: rgb(17, 12, 48);
     padding: 0px;
     display: flex;
     justify-content: space-between;
@@ -38,7 +37,7 @@ body{
     text-align: center;
     color: rgb(255, 255, 255);
     border: 0px;
-    background-color: rgb(28, 22, 29);
+    background-color: rgb(17, 12, 48);
     height: 60px;
     padding: 0px 10px 0px 10px;
     transition: all 0.2s ease-in-out;
@@ -46,7 +45,7 @@ body{
 
 #mainnavbar .button:hover {
     transform: translateY(-1px);
-    background-color: rgb(48, 32, 48);
+    background-color: rgb(28, 24, 64)
 
 }
 
@@ -73,6 +72,7 @@ body{
 }
 
 #forprofile #profile{
+    cursor: pointer;
     height: 37px;
     border-radius: 50%;
     margin: 0px 20px 0px 20px;
@@ -80,16 +80,95 @@ body{
 }
 
 #forprofile #profile:hover{
-    border: 2px solid rgb(152, 108, 196);
+    border: 2px solid rgb(133, 160, 229);
     transform: translateY(-2px);
 }
 
+
 /* End of Nav Bar style */
+
+/* Side Bar style */
+
+#sidebar{
+    color: aliceblue;
+    padding: 15px 0px 0px 0px;
+    top: 0px;
+    z-index: 6;
+    position: fixed;
+    left: -250px;
+    width: 180px;
+    height: 100vh;
+    background-image: linear-gradient(rgb(12, 1, 55),rgb(1, 1, 34));
+    transition: 0.5s ease-in-out;
+}
+
+#sidebar.active{
+  left: 0;
+}
+
+#sidebar h1{
+    margin: 20px 0px 20px 0px;
+    font-size: 15px;
+}
+
+#SidebarProf{
+    padding: 0px 0px 0px 15px;
+    margin: 0px 0px 30px 0px;
+}
+
+#SidebarProf img{
+    height: 50px;
+    border-radius: 50%;
+    transition: all 0.3s ease-in-out;
+    border: 0px solid rgb(105, 105, 246); 
+}
+
+#SidebarProf img:hover{
+    transform: translateY(-3px);
+    cursor: pointer;
+    border: 2px solid rgb(203, 203, 255); 
+}
+
+#SidebarProf h2{
+    margin: 5px 0px 0px 0px;
+    font-size: 20px;
+}
+
+#SidebarProf p{
+    font-size: 11px;
+}
+
+#listsSidebar{
+    margin: 0px;
+}
+
+.Tabs{
+    border: none;
+    color: aliceblue;
+    background: none ;
+    padding: 0px 0px 0px 10px;
+    display: flex;
+    align-items: center;
+    width: 180px;
+    transition: all 0.2s ease-in-out;
+}
+
+.Tabs:hover{
+    transform: translateY(-2px);
+    background-color: rgb(24, 23, 68);
+}
+
+.Tabs img{
+    height: 25px;
+    margin: 0px 10px 0px 5px;
+}
+
+/* End of Side Bar style */
 
 /* Search bar design */
 #Header{
     flex-wrap: wrap;
-    background-color: rgb(28, 22, 29);
+    background-color: rgb(17, 12, 48);
     padding: 20px 10px 20px 10px;
     display: flex;
     align-content: center;
@@ -114,7 +193,7 @@ body{
     padding: 10px 10px 10px 20px;
     width: 250px;
     border-radius: 20px;
-    background-color: rgb(47, 38, 49);
+    background-color: rgb(38, 49, 95);
 }
 
 #Searchbar img{
@@ -138,7 +217,7 @@ body{
     justify-content: left;
     display: flex;
     padding: 20px;
-    background-color: rgb(95, 79, 101);
+    background-color: rgb(33, 36, 64);
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.398);
     transition: all 0.2s ease-in-out;
@@ -146,7 +225,7 @@ body{
 
 #MechanicAccount:hover{
     transform: translateY(-2px);
-    background-color: rgb(116, 86, 126);
+    background-color: rgb(48, 46, 90);
 }
 
 #MechanicAccount img{
